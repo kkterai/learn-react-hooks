@@ -15,7 +15,7 @@ class App extends Component {
 
 handleSubmit = event => {
   event.preventDefault();
-  let url = "https://api.github.com/users/"+`${this.state.githubUsername}`
+  let url = `https://api.github.com/users/${this.state.githubUsername}`
   fetch(url, {
   })
       .then(response => response.json())
