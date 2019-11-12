@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Clock.css'
 
 function Clock() {
 
@@ -10,10 +11,9 @@ function Clock() {
     },[]);
   
     return (
-        <div className="clock">
-          <h1>Hello, Friend!</h1>
-          <h2>It is {date.toLocaleTimeString()}</h2>
-        </div>
+        <ul className="clock">
+          <li>Hello, Friend!  It is {date.toLocaleTimeString()}</li>
+        </ul>
     );
   }
   
