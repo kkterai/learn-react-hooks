@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Data from './Data'
+import Clock from './Clock'
 import './App.css';
 
 class App extends Component {
@@ -30,6 +31,7 @@ handleUsernameChange = event => {
   render() {
     return (
       <div className="App">
+          <Clock/>
            <form onSubmit={event => this.handleSubmit(event)}>
               <h2>Enter a Github username:</h2>
               <input type="text" name="githubUsername" onChange={event => this.handleUsernameChange(event)} value={this.state.githubUsername} />
