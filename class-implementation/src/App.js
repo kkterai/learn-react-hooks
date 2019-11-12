@@ -33,7 +33,7 @@ handleUsernameChange = event => {
       <div className="App">
           <Clock/>
            <form onSubmit={event => this.handleSubmit(event)}>
-              <h2>Enter a Github username:</h2>
+              <h2>...And time to enter a Github username</h2>
               <input type="text" name="githubUsername" onChange={event => this.handleUsernameChange(event)} value={this.state.githubUsername} />
           </form>
           <Data userInfo={this.state.user}/>

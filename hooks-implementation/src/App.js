@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <Clock />
       <form onSubmit={event => handleSubmit(event)}>
-          <h2>Enter a Github username:</h2>
+          <h2>...And time to enter a Github username</h2>
           <input type="text" name="githubUsername" onChange={event => setGithubUsername(event.target.value)} value={githubUsername} />
       </form>
       <Data userInfo={user}/>
