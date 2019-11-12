@@ -5,13 +5,9 @@ function Clock() {
     const [date, setDate] = useState(new Date());
 
     useEffect(() => {
-        const timerID = setInterval(tick(), 1000);
-        clearInterval(timerID);
-    });
-
-    const tick = () => {
-        setDate(new Date());
-    }
+        const timer = setInterval(() => setDate(new Date()), 1000);
+        return () => clearInterval(timer);
+    },[]);
   
     return (
         <div className="clock">
