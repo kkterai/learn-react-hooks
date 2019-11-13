@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Data from './Data'
-import Clock from './Clock'
+import Data from './Data';
+import Clock from './Clock';
 import './App.css';
 
 function App() {

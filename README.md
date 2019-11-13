@@ -2,7 +2,7 @@
 
 Learn how to use React Hooks.
 
-### [View the demo](https://react-hooks-demo.herokuapp.com/) | [Read the blog (WIP)](#)
+### [View the demo](https://stark-springs-98447.herokuapp.com/) | [Read the blog (WIP)](#)
 
 ## Purpose
 
